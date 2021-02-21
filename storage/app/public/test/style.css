@@ -1,0 +1,180 @@
+/* Navbar */
+.navbar-brand{
+    font-family: viga;
+    color: #A78F49 !important;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/pexels-pixabay-509922.jpg);
+    background-size: cover;
+    height: 340px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: 0 -100px;
+}
+
+.jumbotron .display-3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    font-size: 13pt;
+    margin-top: 80px;
+    font-weight: 400;  
+}
+.jumbotron .display-4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    font-size: 16pt;
+    margin-top: -8px;
+    font-weight: 200;
+}
+.jumbotron .display-4 span{
+    font-weight: 600;
+    color: #A78F49;
+}
+
+.jumbotron .lead{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    font-size: 9pt;
+    margin-top: -8px;
+    font-weight: 200; 
+}
+
+.jumbotron .lead span{
+    font-weight: 600;
+    color: #A78F49;
+}
+
+/* About Me */
+img{
+    border-radius: 80px;
+}
+.col img{
+    border: 1px solid #707070;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #A78F49;
+    border-width: 2px;
+}
+
+.quotes_am{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    color: #707070;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.bio_am{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6pt;
+    font-weight: 300;
+    color: #707070;
+    margin-left: -150px; 
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.child {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    content: '';
+    display: inline-block;
+    border-bottom: 3px solid #A78F49;
+    border-width: 50%;
+    text-align: center !important;
+    margin: auto;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    font-size: 10pt;
+    color: #707070;
+    font-weight: 200;
+}
+
+.child span{
+    font-weight: 600;
+}
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+
+    .jumbotron{
+        margin-top: -75px;
+        height: 540px;
+    }
+    
+    .jumbotron .display-3{
+        font-size: 19pt;
+        font-weight: 400; 
+    }
+    .jumbotron .display-4{
+        font-size: 22pt;
+        margin-top: -8px;
+        font-weight: 200;
+    }
+    .jumbotron .display-4 span{
+        font-weight: 600;
+        color: #A78F49;
+    }
+    
+    .jumbotron .lead{
+        font-size: 15pt;
+        margin-top: -8px;
+        font-weight: 200; 
+    }
+    
+    .jumbotron .lead span{
+        font-weight: 600;
+    }
+    
+    /* About Me */
+    .col img{
+        margin: auto;
+    }
+    .quotes_am, .bio_am, .tombol{
+        margin-left: -100px;
+    }
+    .quotes_am{
+        font-size: 16pt;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .bio_am{
+        font-size: 10pt;
+        margin-top: 20px;
+    }
+    .child{
+        font-size: 16pt;
+        color: #707070;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .col img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+    .page-footer{
+        background-color: #A78F49;
+        margin-top: 80px;
+    }
+
+    .footer-copyright{
+        font-size: 10pt;
+        color: white;
+    }
+ }

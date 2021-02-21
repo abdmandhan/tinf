@@ -1,0 +1,28 @@
+body {
+    background-image: url('bg.png');
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
